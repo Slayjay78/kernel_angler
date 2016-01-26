@@ -18,11 +18,11 @@ export USE_CCACHE=1
 #export KERNELSRC=$DIRSRC;
 
 # Target gcc version
-export TARGET_GCC=4.9;
+export TARGET_GCC=5.3;
 
 
 
-export AARCH64_LINUX_ANDROID_TOOLCHAIN=../prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel;
+export AARCH64_LINUX_ANDROID_TOOLCHAIN=../prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.3-kernel;
 
 #export PATH=$AARCH64_LINUX_ANDROID_TOOLCHAIN/aarch64-linux-android/bin:$AARCH64_LINUX_ANDROID_TOOLCHAIN/bin:$PATH;
 
